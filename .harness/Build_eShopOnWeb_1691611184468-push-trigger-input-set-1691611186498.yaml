@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_eShopOnWeb_1691611184468-push-trigger-input-set
+  identifier: Build_eShopOnWeb_1691611184468pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_eShopOnWeb_1691611184468
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
